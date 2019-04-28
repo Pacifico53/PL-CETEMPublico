@@ -95,6 +95,6 @@ END {
     print "Número de Multi-Word-Expressions: " nMWE > "alineaB2.html"
     print "Verbos: " nVerbos
     	for( k in a){
-		print "<p> Verbo: " k " Numero de Ocorrências: " a[k] > "alineaC.html"
+		print "<p> Verbo: \"" k "\" Numero de Ocorrências: " a[k] > "alineaC.html"
 		}
 }
